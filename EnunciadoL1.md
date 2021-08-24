@@ -29,13 +29,13 @@ SaludAndes es una entidad de salud colombiana que se especializa atender pacient
 
 Con el fin de lograr el objetivo para el cual fue contratado, se le sugiere realizar los siguientes pasos:
 
-1.	Descargar y entender los datos [SaludAlpes_diagnosticos_dataset.csv](SaludAlpes_diagnosticos_dataset.csv) utilizando el [diccionario de datos](SaludAlpes_diagnosticos_dataset_dictionary.pdf) .
-2.	Realizar un perfilamiento de datos que le permita estudiar el detalle de estos, al igual que identificar el nivel de calidad de los datos y las tareas de transformación que requieren.
+1.	Descargar y entender los datos [SaludAlpes_diagnosticos_dataset.csv](SaludAlpes_diagnosticos_dataset.csv) utilizando el [diccionario de datos](SaludAlpes_diagnosticos_dataset_dictionary.pdf). Adicionalmente es obligatorio presentar tableros de control analizando
+2.	Realizar un perfilamiento de datos que le permita estudiar el detalle de estos, al igual que identificar el nivel de calidad de los datos y las tareas de transformación que se requieren.
 2.	Describir el preprocesamiento que debe realizar para limpiar los datos y dejarlos listos para aplicar los algoritmos que le permitan llevar a cabo esta técnica analítica de clasificación.
-3.	Implementar tres algoritmos diferentes: K nearest-neighbours, arboles de decisión y uno de libre elección que permita clasificar los conjuntos de datos de manera correcta. Justificar las decisiones más importantes asociadas al proceso, tales como los criterios utilizados para la selección de hiperparámetros.
+3.	Implementar tres algoritmos diferentes: K nearest-neighbours, arboles de decisión y uno de libre elección que permita clasificar los conjuntos de datos de manera correcta. Justificar las decisiones más importantes asociadas al proceso, tales como los criterios utilizados para la selección de hiperparámetros y las modificaciones a los datos para cada algoritmo.
 4.	Analizar los resultados obtenidos y justificar la utilidad de estos modelos para SaludAlpes.
-5.	Desarrollar una presentación donde exponga sus resultados y recomendaciones a SaludAlpes.
-6.  Comparar los distintos algoritmos implementados y explicar cuál recomendarían a SaludAlpes.
+5.  Comparar los distintos algoritmos implementados y explicar cuál recomendarían a SaludAlpes.
+6.	Desarrollar una presentación donde exponga sus resultados y recomendaciones a SaludAlpes.
 
 ## Entregables 
 
@@ -52,12 +52,20 @@ Con el fin de lograr el objetivo para el cual fue contratado, se le sugiere real
  - Nota 2: Deberán analizar si los valores de cada columna corresponden a valores adecuados para el negocio, en caso de que sean anómalos deberán tratar dichos valores.
  - Nota 3: Utilizar los datos que sean útiles para determinar un posible diagnóstico de diabetes.
  - Nota 4: Para el preprocesamiento de los datos se puede hacer uso de las herramientas del curso o de otras herramientas diferentes según el criterio propio. Acá se harán sugerencias sobre las posibilidades que podría desarrollar.
+
+ 
  - Nota 5: Revisar el diccionario y verificar que los datos correspondan con niveles posibles de los examenes clínicos
  
 
  
 
 * En el caso de python, la librería pandas permite que el procesamiento de grandes conjuntos de datos sea sencilla, así que se sugiere revisar el uso de esta.
+
+
+* Utilizar la practica y los tableros de control (Modificaciones Agregar)
+* Detalle en el diccionario de los datos (Modificar, agregar)
+* Aclarar la labor de cada estudiante(Agregar)
+* Probar el dataset (Realizar)
 
 
 
