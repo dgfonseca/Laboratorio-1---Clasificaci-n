@@ -4,9 +4,13 @@
 
 - Comprender el proceso asociado con la preparación de datos para una tarea de minería de datos de similitud relacionada con la técnica de segmentación - clustering (agrupación) 
 
-- Aplicar un algoritmo de segmentación como k-means para generar segmentos 
+- Aplicar tres algoritmos de segmentación como k-means y dos de libre elección para generar segmentos. 
+
+- Analizar e identificar los hiperparametros adecuados para los modelos de clasificación.
 
 - Obtener conclusiones a partir de los segmentos identificados que sean útiles para una organización. 
+
+- Comparar los 3 algoritmos seleccionados y explicar cuál recomiendan a la organización.
 
 
 ## Herramientas
@@ -20,9 +24,9 @@
 
 ### Descripción de negocio
 
-BancAlpes es una entidad bancaria que está realizando una campaña de fidelización para aumentar la retención de usuarios y de esa manera ofrecer mejore productos, servicios y recomendaciones a sus clientes más fieles. Por esta razón, ha recurrido a usted como consultor para que le entregue al equipo de marketing información que pueda ayudarlos a tomar mejores decisiones respecto a las campañas de fidelización próximo trimestre.  
+BancAlpes es una entidad bancaria que está realizando una campaña de fidelización para aumentar la retención de usuarios y de esa manera ofrecer mejores productos, servicios y recomendaciones a sus clientes más fieles. Por esta razón, ha recurrido a usted como consultor para que le entregue al equipo de marketing información que pueda ayudarlos a tomar mejores decisiones respecto a las campañas de fidelización próximo trimestre.  
 
-La información que le ha proporcionado el equipo la puede encontrar aquí [link al csv de la información](credit_card_data.csv). Estos datos contienen el resumen de los clientes del último año, en particular, su valor desde el punto de vista de interacciones con la entidad bancaria.  Pueden acceder al diccionario de datos a traves del siguiente link: [diccionario](diccionario.pdf).
+La información que le ha proporcionado el equipo la puede encontrar aquí [link al csv de la información](BancAlpes_credit_card_data.csv). Estos datos contienen el resumen de los clientes del último año, en particular, su valor desde el punto de vista de interacciones con la entidad bancaria. Pueden acceder al diccionario de datos a traves del siguiente link: [diccionario](diccionario.pdf).
 
 
 
@@ -30,7 +34,7 @@ La información que le ha proporcionado el equipo la puede encontrar aquí [link
 
 La empresa quiere seguir apropiando la metodología CRISP-DM, en específico en su nueva versión ASUM-DM, para el desarrollo de estas iniciativas en analítica de datos, por lo cual le sugiere realizar los siguientes pasos: 
 
-1. Perfilamiento de los datos: en esta etapa es importante saber cuántos datos se tienen (filas y columnas), el tipo de datos de las columnas, cual es la integridad de los datos, cuál es su distribución (discreta o continua). Para esto, es útil aplicar estadística descriptiva sobre los datos, señalando sus principales estadísticos: media, varianza, desviación estándar, etc., para el caso de las columnas numéricas Tenga en cuenta que para su trabajo será mucho más sencillo interpretar una gráfica que una tabla y acompañarla de una síntesis de lo observado.
+1. Perfilamiento de los datos: en esta etapa es importante saber cuántos datos se tienen (filas y columnas), el tipo de datos de las columnas, cual es la integridad de los datos, cuál es su distribución (discreta o continua). Para esto, es útil aplicar estadística descriptiva sobre los datos, señalando sus principales estadísticos: media, varianza, desviación estándar, etc., para el caso de las columnas numéricas. Tenga en cuenta que es obligatorio el uso de tableros de control para ilustrar la información solicitada anteriormente.
 
 2. Limpieza de datos: es el procedimiento llevado a cabo para transformar los valores nulos (missing values) o valores atípicos (outliers), también es importante tener en cuenta que para la mayoría de modelos llevar acabo pasos de normalización o estandarización es útil y necesario.  
  
@@ -38,7 +42,7 @@ La empresa quiere seguir apropiando la metodología CRISP-DM, en específico en 
 
 4. Validación: En modelos de aprendizaje no supervisado la validación de los modelos es un reto importante que deben asumir los consultores. En este caso, con el uso de clustering y en particular del algoritmo de K-Means, dado que se trata de un algoritmo particional, la calidad desde el punto de vista cuantitativo, relacionada con los datos utilizados y con el valor de “k” seleccionado, puede validarse utilizando el coeficiente de silueta y ser ajustado siguiendo guías como el método del codo. Información adicional, puede encontrarla en este [enlace](https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a), para complementar su interpretación.  Una vez realizada la validación cuantitativa, se tiene una segunda parte de la validación que corresponde a la descripción de los resultados obtenidos (clústers y conclusiones del proceso), para la comprensión por parte de la empresa. Esta parte la denominados validación cualitativa. 
 
-5. Tableros de control: El estudiante debe proponer una visualización de los resultados obtenidos  en un tablero de control, de tal manera que el cliente tenga la capacidad de entender los resultados obtenidos en su labor de consultoría.
+5. Tableros de control: El estudiante debe proponer una visualización de los resultados obtenidos en un tablero de control, de tal manera que el cliente tenga la capacidad de entender los resultados obtenidos en su labor de consultoría.
 
 
 
@@ -62,6 +66,8 @@ Algunas preguntas que pueden guiar su desarrollo son:
 4. ¿Cómo varía la calidad del modelo obtenido si aplico diferentes algoritmos? 
 
 5. ¿Qué pasa en la ejecución del algortimo de k-means si se incluyen variables categóricas nominales, Qué tratamiento se les debe aplicar? 
+
+6. ¿Qué variables afectan negativamente el score de la silueta? ¿Són realmente necesarias esas variables para determinar los segmentos en las campañas de fidelización?
 
 ## Sugerencias
 
