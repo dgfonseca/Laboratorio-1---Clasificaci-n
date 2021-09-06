@@ -5,7 +5,7 @@
  - Comprender el proceso asociado a la preparación de datos para una tarea de minería de datos de clasificación 
  - Utilizar una herramienta para el preprocesamiento, la limpieza y el perfilamiento de los datos
  - Analizar e identificar los hiperparametros adecuados para los modelos de clasificación.
- - Obtener conclusiones y analizar la matriz de confusión a partir de los modelos generados.
+ - Obtener conclusiones a partir de los modelos generados.
  - Comunicar los hallazgos encontrados a la organización y explicar por qué tiene valor para el negocio.
  - Comparar los 3 algoritmos seleccionados y explicar cuál recomiendan a la organización.
 
@@ -63,7 +63,7 @@ Con el fin de lograr el objetivo para el cual fue contratado, se le sugiere real
 
 
 
- ## IMPORTANTE
+## IMPORTANTE
 
  - Cada integrante del grupo debe estar encargado de la implementación de un algoritmo distinto, sin embargo, todos los integrantes del grupo deben tener la capacidad de explicar lo realizado por los demás compañeros y determinar la mejor solución para SaludAlpes. (Aclaración: El análisis de resultados y su justificación debe ser realizado en grupo)
 
